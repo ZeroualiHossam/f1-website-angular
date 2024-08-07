@@ -1,0 +1,27 @@
+.contenedor-info{
+    margin-top: 2%;
+    display: block;
+    justify-content: center;
+}
+
+.contenedor-info h1{
+    margin-left: 5%;
+    margin-bottom: 2%;
+    font-size: 5vmin;
+    font-weight: bold;
+    color: #000;
+}
+
+.evolution{
+    width: 60%;
+    height: 40%;
+    margin-left: 25%;
+}
+
+.contenedor-info p {
+    text-align: justify;
+    font-size: 1.75vmin;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-top: 2%;
+}

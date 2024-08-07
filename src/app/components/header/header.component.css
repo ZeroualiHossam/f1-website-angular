@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Formula1;
+}
+
+.contenedor-header{
+    width: auto;
+    background-color: #161515;
+    padding: 5px 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -15%;
+}
+
+.logo-head img {
+    width: 40px;
+    height: auto;
+}
+
+.opciones nav ul {
+    list-style: none;
+}
+
+.opciones nav ul li {
+    display: inline;
+    margin-left: 15%;
+
+}
+
+.opciones nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.opciones nav ul li a:hover {
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+}
+
+

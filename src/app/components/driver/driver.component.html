@@ -1,0 +1,11 @@
+<div class="contenedor-driver">
+    <div class="image-driver" [ngStyle]="{ 'border': '5px solid #' + driver.team_colour }">
+        <img [src]="driver.headshot_url" alt="">
+    </div>
+    <div class="info-driver" [ngStyle]="{ 'background-color': '#' + driver.team_colour }">
+        
+        <h1>{{ driver.driver_number }} {{ driver.first_name }} {{ driver.last_name }}</h1>
+        <h3>{{ driver.country_code }}</h3>
+        <h2>{{ driver.team_name }}</h2>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+<div class="contenedor-clasificado" [ngStyle]="{ 'background-color': '#' + driver.team_colour }">
+    <div class="pos-driver">
+        <h1> Nº</h1>
+    </div>
+    <div class="name-driver">
+        <h1>{{ driver.first_name }} {{ driver.last_name }}</h1>
+    </div>
+    <div class="image-clasificado">
+        <img [src]="driver.headshot_url" alt="">
+    </div>
+    <div class="pts">
+        <p>PTS</p>
+    </div>
+</div>
+

@@ -1,0 +1,42 @@
+.image-driver{
+    width: 70%;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.image-driver img{
+    width: 200px;
+    align-items: center;
+    margin-left: 5vmin;
+    margin-bottom: -0.45vmin;
+}
+
+.info-driver{
+    margin-top: -2vmin;
+    width: 72.35%;
+    height: auto;
+    background-color: brown;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 15px 15px;
+}
+
+.info-driver h1{
+    padding-left: 1.5vmin;
+    padding-top: 1vmin;
+    font-size: 2.5vmin;
+}
+
+.info-driver h2{
+    padding-bottom: 2vmin;
+    padding-left: 1.5vmin;
+    font-size: 1.75vmin;
+}
+
+.info-driver h3{
+    padding-left: 1.5vmin;
+}
+

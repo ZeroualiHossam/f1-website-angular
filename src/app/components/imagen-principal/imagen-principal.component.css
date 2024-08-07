@@ -1,0 +1,73 @@
+body{
+    justify-content: center;
+}
+
+.image-main {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.next-stop-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+}
+
+.next-stop, .circuito {
+    display: inline-block;
+}
+
+.next-stop {
+    font-size: 10vmin;
+    margin-right: 2.5vh;
+}
+
+.circuito {
+    font-size: 11vmin;
+    color: red;
+}
+
+.image-circuit {
+    display: block;
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+}
+
+.learn-more {
+    display: block;
+    position: absolute;
+    bottom: 25%;
+    left: 45%;
+    background-color: #ec1e1e;
+    padding: 2.75vmin 5.25vmin;
+    border-radius: 15px;
+    text-decoration: none;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.learn-more button{
+    background-color: transparent;
+    border: none;
+}
+
+.learn-more button a{
+    font-size: 2.5vmin;
+    text-decoration: none;
+    color: white;
+}

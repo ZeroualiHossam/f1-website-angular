@@ -1,0 +1,34 @@
+.contenedor-clasificado{
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 40px 0 40px 0;
+    display: flex;
+    margin-bottom: 2%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pos-driver{
+    margin-left: 5%;
+}
+.name-driver{
+    margin-left: -15%;
+}
+
+.image-clasificado img{
+display: flex;
+}
+
+.pts{
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 5%;
+    width: 10%;
+}
+
+.pts p {
+    text-align: center;
+}
+
+
+

@@ -1,0 +1,15 @@
+.title{
+    margin-top: 5vmin;
+    margin-bottom: 5vmin;
+    margin-left: 5vmin;
+}
+
+.drivers {
+    margin-left: 15vmin;
+    margin-right: 5vmin;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.margen-prob{
+    margin-bottom: 150vmin;
+}

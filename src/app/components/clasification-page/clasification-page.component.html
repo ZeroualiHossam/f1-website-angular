@@ -1,0 +1,11 @@
+
+<app-header></app-header>
+<h1 class="title">2024 Drivers Standings</h1>
+<div class="drivers">
+    <app-clasification
+        *ngFor="let driver of drivers.slice(0, 19)"
+        [driver]="driver">
+    </app-clasification>
+</div>
+
+<div class="margen-prob"></div>
